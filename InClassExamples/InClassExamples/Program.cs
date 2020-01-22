@@ -19,15 +19,27 @@ namespace InClassExamples
 
 
             //Create an int named favorite number
-            int favoriteNumber = 5;
+            int favoriteNumber;
 
-            double crazyNumber = 4.3564 * favoriteNumber;
+            
             string lastName = "Benjock";
-            string fullName = firstName + " " + lastName;
+            
 
+            //MAKE IT DYNAMIC
+            Console.WriteLine("Please enter your first name: >>");
+            firstName = Console.ReadLine();
+
+            Console.WriteLine("Please enter your last name: >>");
+            lastName = Console.ReadLine();
+
+            Console.WriteLine("Please enter your favorite number: >>");
+            favoriteNumber = Convert.ToInt32(Console.ReadLine());
+
+            string fullName = firstName + " " + lastName;
+            double crazyNumber = 4.23 * favoriteNumber;
             Console.WriteLine(fullName + " has a favorite number of " + favoriteNumber
                                  + " \nwhich equates to a crazy number of " + crazyNumber);
-            // MAKE IT DYNAMIC
+            
 
             Console.ReadKey();
 
