@@ -8,6 +8,8 @@ namespace InClassExamples
 {
     class Program
     {
+        const string MESSAGE = "Thank you for using my application!";
+    
         static void Main(string[] args)
         {
             //Create an String named firstName
@@ -21,9 +23,9 @@ namespace InClassExamples
             //Create an int named favorite number
             int favoriteNumber;
 
-            
+
             string lastName = "Benjock";
-            
+
 
             //MAKE IT DYNAMIC
             Console.WriteLine("Please enter your first name: >>");
@@ -39,10 +41,13 @@ namespace InClassExamples
             double crazyNumber = 4.23 * favoriteNumber;
             Console.WriteLine(fullName + " has a favorite number of " + favoriteNumber
                                  + " \nwhich equates to a crazy number of " + crazyNumber);
-            
+
 
             Console.ReadKey();
 
         }
+
     }
+
+
 }
