@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InClassExamples", "InClassE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Participation1", "Participation1\Participation1.csproj", "{FE68EF81-F756-4023-92A6-9728A281AD00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loop_CoinTossUntilRight", "Loop_CoinTossUntilRight\Loop_CoinTossUntilRight.csproj", "{7B85F059-0C94-46A3-9F0C-547C2B20A699}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loop_Summing", "Loop_Summing\Loop_Summing.csproj", "{76DF718B-0B89-441C-B045-2FF67DA25287}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{FE68EF81-F756-4023-92A6-9728A281AD00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE68EF81-F756-4023-92A6-9728A281AD00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE68EF81-F756-4023-92A6-9728A281AD00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B85F059-0C94-46A3-9F0C-547C2B20A699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B85F059-0C94-46A3-9F0C-547C2B20A699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B85F059-0C94-46A3-9F0C-547C2B20A699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B85F059-0C94-46A3-9F0C-547C2B20A699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76DF718B-0B89-441C-B045-2FF67DA25287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76DF718B-0B89-441C-B045-2FF67DA25287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76DF718B-0B89-441C-B045-2FF67DA25287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76DF718B-0B89-441C-B045-2FF67DA25287}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

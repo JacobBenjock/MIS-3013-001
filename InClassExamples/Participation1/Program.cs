@@ -39,10 +39,10 @@ namespace Participation1
 
             if (usersGuess == randomNumber)
             {
-                Console.WriteLine("You win");
+                Console.WriteLine($"Congrats, {usersGuessAsString} was right");
             }
             else
-            {
+            { 
                 Console.WriteLine("You Lose");
             }
             
