@@ -19,9 +19,10 @@ namespace Palindrome
             userInput = Console.ReadLine();
             index = userInput.Length - 1;
 
-            /*Process
-             *Establish that userinputreversed is equal to userinput index
-             *Must have an index that reads the input entirely, string.Length - 1 
+            /* Process
+             * Establish that userinputreversed is equal to userinput index
+             * Must have an index that reads the input entirely, string.Length - 1 
+             * Establish a += with the userinput[index] and increment backwards (index--)
              */ 
             do
             {
