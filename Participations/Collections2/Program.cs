@@ -40,7 +40,7 @@ namespace Collections2
 
 
             Console.ReadKey();
-
         }
+        
     }
 }
