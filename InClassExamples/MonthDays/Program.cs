@@ -19,7 +19,7 @@ namespace MonthDays
             monthLookup = Console.ReadLine();
 
             // Process
-            if (monthLookup == "January" || monthLookup == "March" || monthLookup == "May" || monthLookup == "July" || monthLookup == "August")
+            if (monthLookup == "January" || monthLookup == "March" || monthLookup == "July" || monthLookup == "August")
             {
                 daysInMonth = 31;
             }

@@ -31,16 +31,14 @@ namespace InClassExamples
             Console.WriteLine("Please enter your first name: >>");
             firstName = Console.ReadLine();
 
-            Console.WriteLine("Please enter your last name: >>");
-            lastName = Console.ReadLine();
+            
 
-            Console.WriteLine("Please enter your favorite number: >>");
-            favoriteNumber = Convert.ToInt32(Console.ReadLine());
+            for (int i = firstName.Length - 1; i >=0 ; i--)
+            {
+                Console.Write(firstName[i]);
+            }
 
-            string fullName = firstName + " " + lastName;
-            double crazyNumber = 4.23 * favoriteNumber;
-            Console.WriteLine(fullName + " has a favorite number of " + favoriteNumber
-                                 + " \nwhich equates to a crazy number of " + crazyNumber);
+            
 
 
             Console.ReadKey();

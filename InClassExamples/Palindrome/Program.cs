@@ -29,19 +29,18 @@ namespace Palindrome
                 userInputReversed += userInput[index];
                 index--;
 
-
             } while (index >= 0);
 
             // Conditional to print out whether or not this word is a palindrome
             if (userInput == userInputReversed)
             {
-                Console.WriteLine($"The word {userInput} is a palindrome");
+                Console.WriteLine($"The word {userInput} is a palindrome in that and this word backwards is {userInputReversed}");
             }
             else
             {
-                Console.WriteLine($"The word {userInput} reversed is {userInputReversed}");
+                Console.WriteLine($"The word {userInput} reversed is {userInputReversed} and not a palindrome sowwy");
             }
-            Console.WriteLine(userInputReversed);
+            
 
             //Output
             Console.WriteLine("Press any key to exit");

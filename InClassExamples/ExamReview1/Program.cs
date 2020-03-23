@@ -15,7 +15,9 @@ namespace ExamReview1
             double interestRate = 0.0;
             int totalYearsWantingToSave = 0;
             double totalAmountSaved = 0.0;
-
+            int numMonths = 1; // Keep track of which month of the year we are in
+            int numYears = 1;
+            
 
             // Ask the user for input
             Console.WriteLine("How much money will you save per week?");
@@ -33,7 +35,68 @@ namespace ExamReview1
             {
                  totalAmountSaved += moneySavedPerWeek * 4;
                 totalAmountSaved += totalAmountSaved * interestRate;
-                Console.WriteLine($"{month.ToString("N0")} : {totalAmountSaved.ToString("C2")}");
+
+                string monthName = month.ToString("N0");
+
+                if (numMonths == 1)
+                {
+                    monthName = "January";
+                }
+                else if (numMonths == 2)
+                {
+                    monthName = "February";
+                }
+                else if (numMonths == 3)
+                {
+                    monthName = "March";
+                }
+                else if (numMonths == 4)
+                {
+                    monthName = "April";
+                }
+                else if (numMonths == 5)
+                {
+                    monthName = "May";
+                }
+                else if (numMonths == 6)
+                {
+                    monthName = "June";
+                }
+                else if (numMonths == 7)
+                {
+                    monthName = "July";
+                }
+                else if (numMonths == 8)
+                {
+                    monthName = "August";
+                }
+                else if (numMonths == 9)
+                {
+                    monthName = "September";
+                }
+                else if (numMonths == 10)
+                {
+                    monthName = "October";
+                }
+                else if (numMonths == 11)
+                {
+                    monthName = "November";
+                }
+                else
+                {
+                    monthName = "December";
+                }
+
+                Console.WriteLine($"{monthName} @ year {numYears.ToString("N0")} : {totalAmountSaved.ToString("C2")}");
+
+                numMonths++;
+
+                if (month % 12 == 0)
+                {
+                    numYears++;
+                    numMonths = 1;
+                }
+                
 
             }
 
