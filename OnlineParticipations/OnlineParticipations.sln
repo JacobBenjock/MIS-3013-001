@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineParticipations", "Onl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMethod", "SimpleMethod\SimpleMethod.csproj", "{0B854B02-8935-428F-98A8-EF03BFA6343F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{8B3B89F6-29C4-4324-A52A-38EED5875A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CirclesAndRectangles", "CirclesAndRectangles\CirclesAndRectangles.csproj", "{03CFCB7F-284C-42CF-AB1F-6965FC3957D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{0B854B02-8935-428F-98A8-EF03BFA6343F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B854B02-8935-428F-98A8-EF03BFA6343F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B854B02-8935-428F-98A8-EF03BFA6343F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B3B89F6-29C4-4324-A52A-38EED5875A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B3B89F6-29C4-4324-A52A-38EED5875A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B3B89F6-29C4-4324-A52A-38EED5875A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B3B89F6-29C4-4324-A52A-38EED5875A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03CFCB7F-284C-42CF-AB1F-6965FC3957D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03CFCB7F-284C-42CF-AB1F-6965FC3957D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03CFCB7F-284C-42CF-AB1F-6965FC3957D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03CFCB7F-284C-42CF-AB1F-6965FC3957D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
