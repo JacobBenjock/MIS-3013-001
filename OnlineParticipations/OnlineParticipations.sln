@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CirclesAndRectangles", "CirclesAndRectangles\CirclesAndRectangles.csproj", "{03CFCB7F-284C-42CF-AB1F-6965FC3957D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student", "Student\Student.csproj", "{B2611921-F3F2-4DF2-B561-86AC8D140707}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesP2", "ClassesP2\ClassesP2.csproj", "{62451F11-2435-4E08-B87A-6C8543986E14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{03CFCB7F-284C-42CF-AB1F-6965FC3957D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03CFCB7F-284C-42CF-AB1F-6965FC3957D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03CFCB7F-284C-42CF-AB1F-6965FC3957D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2611921-F3F2-4DF2-B561-86AC8D140707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2611921-F3F2-4DF2-B561-86AC8D140707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2611921-F3F2-4DF2-B561-86AC8D140707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2611921-F3F2-4DF2-B561-86AC8D140707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62451F11-2435-4E08-B87A-6C8543986E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62451F11-2435-4E08-B87A-6C8543986E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62451F11-2435-4E08-B87A-6C8543986E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62451F11-2435-4E08-B87A-6C8543986E14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
